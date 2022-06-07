@@ -2,6 +2,7 @@
 # My Contact Info:
 
 * **Phone:** +375 29 545-75-70
+
 * **E-mail:** [rahavitski55@gmail.com](rahavitski55@gmail.com)
 * **GitHub:** [rahavitski](https://github.com/rahavitski)
 * **Telegram:** [rahavitski](https://t.me/rahavitski)
@@ -42,6 +43,6 @@ I'm 20 y.o., I'm studying to be an electrical engineer, I work as a freelance de
 
 * **Russian** - native speaker
 * **Belarussian** - native speaker
-* **Ukranian** - С1
+* **Ukrainian** - С1
 * **Polish** - A2
 * **English** - B1 (B2 in process...)
