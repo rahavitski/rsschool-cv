@@ -2,12 +2,13 @@
 # My Contact Info:
 
 * **Phone:** +375 29 545-75-70
-* **E-mail:** [rahavitski55@gamil.com](rahavitski55@gmail.com)
+
+* **E-mail:** [rahavitski55@gmail.com](rahavitski55@gmail.com)
 * **GitHub:** [rahavitski](https://github.com/rahavitski)
 * **Telegram:** [rahavitski](https://t.me/rahavitski)
 
 # About Me
-I'm 20 years old, I'm studying to be an electrical engineer, I work as a freelance designer and make custom music. I was always interested in creating something new, I passed my first "website" at the age of 12 - it was a site for my minecraft project :) That is why I am currently doing front-end and step by step approaching my goal.
+I'm 20 y.o., I'm studying to be an electrical engineer, I work as a freelance designer and make custom music. I was always interested in creating something new, I passed my first "website" at the age of 12 - it was a site for my minecraft project :) That is why I am currently doing front-end and step by step approaching my goal.
 * **My strengths:**
     * Quick learner
     * Diligence, painstaking
@@ -42,6 +43,6 @@ I'm 20 years old, I'm studying to be an electrical engineer, I work as a freelan
 
 * **Russian** - native speaker
 * **Belarussian** - native speaker
-* **Ukranian** - С1
+* **Ukrainian** - С1
 * **Polish** - A2
 * **English** - B1 (B2 in process...)
