@@ -13,9 +13,6 @@
 <body>
     <div class="main_container">
         <div class="left-box">
-            <nav>
-                
-            </nav>
             <header>
                 <img src="./images/mylogo-real.png" alt="MyPhoto" width="300" height="300" class="mylogoreal">
                 <img src="./images/mylogoblack.png" alt="MyPhoto" width="300" height="300" class="mylogo">
@@ -108,7 +105,7 @@
                     <div id="line-end1"></div>
                     <div id="line-end2"></div>
                     <div id="line-end3"></div>
-                </div>  
+                </div>
                 <div class="about">
                     <p><span class="arrow">&#8250;&#8250;&#8250; </span>Hi, I'm 20 y.o., I'm studying to be an electrical engineer, I work as a freelance designer and make
                     custom music.
@@ -130,12 +127,20 @@
         }
                     </pre>
                 </div>
-            <h2 class="about_me">About me</h2>
-            <h2 class="my_education">My education</h2>
-            <h2 class="my_code">My code</h2>
+            <h2 id="about_me">About me</h2>
+            <h2 id="my_education">My education</h2>
+            <h2 id="my_code">My code</h2>
             <a href="https://github.com/rahavitski/rsschool-cv/blob/gh-pages/"><h2 id="cv-project-link">This page code</h2></a>
             <button class="theme_button">Switch theme</button>
             <script src="./script.js"></script>
+            <nav>
+                <ul class="menu">
+                    <li class="menu-about-me"><a href="#about_me">About me</a></li>
+                    <li class="menu-education"><a href="#my_education">Education</a></li>
+                    <li class="menu-code"><a href="#my_code">Code</a></li>
+                    <li id="to_top"><a href="#top">&#9650;</a></li>
+                </ul>
+            </nav>
             <footer id="footer">
                 <span class="github-footer">
                     <a href="https://github.com/rahavitski"><img src="./icons/github.svg" alt="GitHub icon" width="32" height="32"></a>

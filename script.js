@@ -23,12 +23,12 @@ btn.addEventListener("click", function () {
   name_line.classList.toggle("dark_theme");
 });
 
-const about_me = document.querySelector(".about_me");
+const about_me = document.querySelector("#about_me");
 btn.addEventListener("click", function () {
   about_me.classList.toggle("dark_theme");
 });
 
-const my_education = document.querySelector(".my_education");
+const my_education = document.querySelector("#my_education");
 btn.addEventListener("click", function () {
   my_education.classList.toggle("dark_theme");
 });
@@ -38,7 +38,8 @@ btn.addEventListener("click", function () {
   education_link.classList.toggle("dark_theme");
 });
 
-const my_code = document.querySelector(".my_code");
+const my_code = document.querySelector("#my_code");
 btn.addEventListener("click", function () {
   my_code.classList.toggle("dark_theme");
 });
+
