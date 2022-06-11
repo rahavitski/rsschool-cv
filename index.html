@@ -9,13 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Roboto+Mono:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <div class="main-container">
+    <div class="main_container">
         <div class="left-box">
             <nav>
-
+                
             </nav>
             <header>
                 <img src="./images/mylogo-real.png" alt="MyPhoto" width="300" height="300" class="mylogoreal">
@@ -26,15 +25,19 @@
                 <div class="left-header-text">My contacts</div>
                 <ul>
                     <li class="contacts">
-                        <a href="tel:+375295457570">
-                            <img src="./icons/phone.svg" alt="Phone icon" width="32" height="32">
-                        </a>
+                        <span class="contacts_icons">
+                            <a href="tel:+375295457570">
+                                <img src="./icons/phone.svg" alt="Phone icon" width="32" height="32">
+                            </a>
+                        </span>
                         <div class="contacts-text">+375(29)545-75-70</div>
                     </li>
                     <li class="contacts">
-                        <a href="rahavitski55@gmail.com">
-                            <img src="./icons/email.svg" alt="Email icon" width="32" height="32">
-                        </a>
+                        <div class="contacts_icons">
+                            <a href="rahavitski55@gmail.com">
+                                <img src="./icons/email.svg" alt="Email icon" width="32" height="32">
+                            </a>
+                        </div>
                         <div class="contacts-text">rahavitski55@gmail.com</div>
                     </li>
                     <li class="contacts">
@@ -69,7 +72,7 @@
                         </li>
                         <li class="language-line">
                             <img src="./icons/belarus.png" alt="belarus icon" width="24" height="24">
-                            <span class="language">Belarussian — Native</span>
+                            <span class="language">Belarusian — Native</span>
                         </li>
                         <li class="language-line">
                             <img src="./icons/ukraine.png" alt="ukraine icon" width="24" height="24">
@@ -95,16 +98,10 @@
                 </div>
             </main>
         </div>
-            <!-- <div class="toggle">
-                <input type="checkbox" id="toggle">
-                <label for="toggle">
-            </div> -->
-            <div class="right-box">
+            <div class="right_box">
                 <div class="header-text">
-                    <div id="top-line"></div>
-                    <div id="left-line"></div>
-                    <div id="name-line"></div>
-                    <div id="HEAD-BACKGROUND"></div>
+                    <div class="top_line"></div>
+                    <div class="name_line"></div>
                     <span class="name">Sasha<br>Rahavitski</span>
                     <div class="prof">Front-end Developer</div>
                     <h1 class="place">Minsk, Belarus</h1>
@@ -120,9 +117,9 @@
                     That is why I am currently doing front-end and step by step approaching my goal.</p>
                 </div>
                 <div class="education">
-                    <p class="education-link"><a href="https://bntu.by/en"><strong>Belarussian National Technical University</strong></a></p>
+                    <p class="education_link"><a href="https://bntu.by/en"><strong>Belarussian National Technical University</strong></a></p>
                     <div class="under-school"><span class="arrow">&#8250;&#8250;&#8250; </span>Electric Drives and Control <em>(in process)</em></div>
-                    <p class="education-link"><a href="https://rs.school/js"><strong>Rolling Scopes School</strong></a></p>
+                    <p class="education_link"><a href="https://rs.school/js"><strong>Rolling Scopes School</strong></a></p>
                     <span class="under-school"><span class="arrow">&#8250;&#8250;&#8250; </span>JavaScript / Front-end <em>(in process)</em></span>
                 </div>
                 <div class="code">
@@ -133,10 +130,12 @@
         }
                     </pre>
                 </div>
-            <h2 id="about-me">About me</h2>
-            <h2 id="my-education">My education</h2>
-            <h2 id="my-code">My code</h2>
-            <h2 id="cv-project-link">This page code</h2>
+            <h2 class="about_me">About me</h2>
+            <h2 class="my_education">My education</h2>
+            <h2 class="my_code">My code</h2>
+            <a href="https://github.com/rahavitski/rsschool-cv/blob/gh-pages/"><h2 id="cv-project-link">This page code</h2></a>
+            <button class="theme_button">Switch theme</button>
+            <script src="./script.js"></script>
             <footer id="footer">
                 <span class="github-footer">
                     <a href="https://github.com/rahavitski"><img src="./icons/github.svg" alt="GitHub icon" width="32" height="32"></a>
@@ -145,7 +144,7 @@
                 <span class="rsschool-footer">
                     <a href="https://rs.school/"><img src="./icons/rsschool.svg" alt="RSS Icon" width="50" height="30" id="rsschool-icon"></a>
                 </span>
-            </footer>  
+            </footer> 
     </div>
     </div>
 </body>

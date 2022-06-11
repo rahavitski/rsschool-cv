@@ -5,7 +5,7 @@
     --gray: #444444;
 }
 
-.main-container {
+.main_container {
     display: flex;
     margin: 0 auto;
     width: 1000px;
@@ -21,7 +21,7 @@
     width: 100%;
 }
 
-.right-box {
+.right_box {
     margin: 0 auto;
     background: rgb(0, 0, 0);
 }
@@ -81,7 +81,7 @@ body{
     background: var(--white);
 }
 
-#name-line {
+.name_line {
     border-top: 30px solid var(--white);
     box-sizing: border-box;
     position:relative;
@@ -89,7 +89,7 @@ body{
     width: 700px;
     overflow: hidden;
 }
-#top-line {
+.top_line {
     border-top: 987px solid var(--white);
     box-sizing: border-box;
     position:absolute;
@@ -132,6 +132,29 @@ body{
     border-bottom: #e2fbff;
 }
 
+#cv-project-link {
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    bottom: 1026px;
+    left: 680px;
+    width: 23px;
+    color: var(--white);
+    font-size: 50%;
+    font-weight: 400;
+    padding-left: 4%;
+    padding-right: 2%;
+    background-color: #000000;
+    border-radius: 5px;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+#cv-project-link:hover{
+    overflow: hidden;
+    transform: translateX(10px);
+
+}
+
 #line-end1 {
     box-sizing: border-box;
     border-bottom: 66px solid #000000;
@@ -140,9 +163,9 @@ body{
     width: 25px;
     overflow: hidden;
     border-top-right-radius: 5px;
-    
     border-bottom-right-radius: 5px;
 }
+
 
 #line-end2 {
     box-sizing: border-box;
@@ -152,7 +175,6 @@ body{
     width: 25px;
     overflow: hidden;
     border-top-right-radius: 5px;
-    
     border-bottom-right-radius: 5px;
 }
 
@@ -164,7 +186,6 @@ body{
     width: 25px;
     overflow: hidden;
     border-top-right-radius: 5px;
-    
     border-bottom-right-radius: 5px;
 }
 
@@ -174,7 +195,13 @@ body{
     padding-bottom: 6px;
     text-align: center;
     background-color: black;
-    color: var(--white);
+    color: var(--white);  
+    transition: 1s;  
+}
+
+.left-header-text:hover {
+    transform: translateX(10px);
+    border-radius: 5px;
 }
 
 .contacts {
@@ -270,7 +297,7 @@ body{
     margin-right: 20px;
 }
 
-#about-me {
+.about_me {
     font-family: 'Roboto Mono', monospace;
     position: relative;
     bottom: 390px;
@@ -287,7 +314,7 @@ body{
     transition: all ease 1s;
 }
 
-#about-me:hover{
+.about_me:hover{
     overflow: hidden;
     transform: translateY(-3px);
     filter: drop-shadow(0px 0px 1px #444444);
@@ -310,7 +337,7 @@ body{
     margin: 40px;
 }
 
-#my-education {
+.my_education {
     font-family: 'Roboto Mono', monospace;
     position: relative;
     bottom: 100px;
@@ -327,7 +354,7 @@ body{
     transition: all ease 1s;
 }
 
-#my-education:hover{
+.my_education:hover{
     overflow: hidden;
     transform: translateY(-3px);
     filter: drop-shadow(0px 0px 1px #444444);
@@ -346,12 +373,12 @@ body{
     padding-right: 40px;
 }
 
-.education-link {
+.education_link {
     background-color: var(--orange);
     background-size: cover;
 }
 
-.a:link, a:visited,  a:hover, a:active{
+a:link, a:visited,  a:hover, a:active{
     color: #000000;
     text-decoration: none;
 }
@@ -364,7 +391,7 @@ body{
     font-size: 150%;
 }
 
-#my-code {
+.my_code {
     font-family: 'Roboto Mono', monospace;
     position: relative;
     top: 40px;
@@ -381,7 +408,7 @@ body{
     transition: all ease 1s;
 }
 
-#my-code:hover {
+.my_code:hover {
     overflow: hidden;
     transform: translateY(-3px);
     filter: drop-shadow(0px 0px 1px #444444);
@@ -412,7 +439,7 @@ pre {
 #footer{
     font-family: 'Roboto Mono', monospace;
     position:relative;
-    top: 220px;
+    top: 150px;
     box-sizing: border-box;
     font-weight: bold;
     color:black;
@@ -451,4 +478,60 @@ pre {
     overflow: hidden;
     color: #000000;
     filter: drop-shadow(0px 0px 0.5px);
+}
+
+.theme_button {
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    bottom: 1040px;
+    left: 680px;
+    width: 20px;
+    color: #e2fbff;
+    font-size: 50%;
+    font-weight: 400;
+    padding-left: 4%;
+    padding-right: 6%;
+    background-color: var(--orange);
+    border-radius: 5px;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+.theme_button:hover{
+    overflow: hidden;
+    transform: translateX(10px);
+}
+
+body.dark_theme {
+    color: #e2fbff;
+    background: #1f1f1f;
+}
+body.dark_theme a {
+    color: #e2fbff;
+}
+
+.main_container.dark_theme {
+    color: #e2fbff;
+    background: #1f1f1f;
+}
+
+.education.dark_theme a {
+    color: rgb(255, 255, 255);
+}
+
+
+.top_line.dark_theme {
+    opacity: .1;
+}
+
+.name_line.dark_theme {
+    opacity: .1;
+}
+
+.education.dark_theme {
+    color: white;
+}
+
+.education_link.dark_theme {
+    background-color: black;
 }
